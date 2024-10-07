@@ -1,0 +1,59 @@
+<body id="bodybg" style="background-image: url('https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/HeroesVillains2.png');">
+
+  <audio src="https://offblogmedia.com/wp-content/uploads/2023/04/Metro_Boomin_Ft_Don_Toliver_Future_-_Too_Many_Nights_Offblogmedia.com.mp3" id="song"></audio>
+
+  <div class="wrapper">
+    <div class="container" id="background">
+
+      <div class="box"></div>
+
+      <div class="playlist">
+        <div class="song-playlist" style="opacity: 0;">Heroes and Villains</div>
+
+      </div>
+
+      <div class="track_image" id="track_image">
+        <div class="vinylcover"></div>
+        <img src="https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/metroboomin2.gif" id="thumbnail" />
+      </div>
+
+      <div class="songtitles">
+
+        <div class="song-title">
+          <span id="h">Too Many Nights</span>
+          <span id="h2">(feat. Don Toliver &amp; Future)</span>
+
+        </div>
+
+        <div class="song-artist">Metro Boomin</div>
+
+      </div>
+
+      <div class="progressbar">
+        <div class="currentTime"></div>
+        <input type="range" id="progress-bar" min="0" max="" value="0" onchange="changeProgressBar()" />
+
+        <div class="durationTime"></div>
+      </div>
+
+      <div class="trackbuttons">
+
+        <div class="mybutton">
+          <i onclick="previousSong()" id="previous-song" class="fas fa-backward"></i>
+        </div>
+
+        <div class="mybutton">
+          <i onclick="playPause()" id="play-pause" class="fas fa-play"></i>
+        </div>
+
+        <div class="mybutton">
+          <i onclick="nextSong()" id="next-song" class="fas fa-forward"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
